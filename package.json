@@ -9,11 +9,14 @@
     "test-e2e:run-gemini": "gemini test ./test-e2e-screenshots --reporter flat --reporter html",
     "test-e2e:update-reference": "gemini update ./test-e2e-screenshots"
   },
-  "main": "index.js",
-  "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
-  "license": "MIT",
   "devDependencies": {
     "gemini": "4.18.1",
     "selenium-standalone": "6.2.0"
+  },
+  "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
   }
 }
