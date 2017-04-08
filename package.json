@@ -2,7 +2,14 @@
   "name": "test-gemini-setup",
   "version": "0.0.0",
   "description": "For initial expirience of gemini setup",
+  "scripts": {
+    "postinstall": "selenium-standalone install"
+  },
   "main": "index.js",
   "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gemini": "4.18.1",
+    "selenium-standalone": "6.2.0"
+  }
 }
