@@ -1,6 +1,5 @@
 gemini.suite('yandex-search', (suite) => {
     suite.setUrl('/')
-        .setCaptureElements('body')
-        .ignoreElements('#banner')
-        .capture('plain');
+        .setCaptureElements('.home-logo')
+        .capture('logo');
 });
