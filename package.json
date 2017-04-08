@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "description": "For initial expirience of gemini setup",
   "scripts": {
-    "postinstall": "selenium-standalone install"
+    "postinstall": "selenium-standalone install",
+    "start:selenium": "selenium-standalone start",
+    "test": "gemini test --reporter flat --reporter html",
+    "test:update-reference": "gemini update"
   },
   "main": "index.js",
   "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
