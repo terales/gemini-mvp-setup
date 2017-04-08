@@ -6,8 +6,8 @@
     "postinstall": "selenium-standalone install",    
     "test-e2e:ci": "node ./gemini-runner",
     "test-e2e:start-selenium": "selenium-standalone start",
-    "test-e2e:run-gemini": "gemini test --reporter flat --reporter html",
-    "test-e2e:update-reference": "gemini update"
+    "test-e2e:run-gemini": "gemini test ./test-e2e-screenshots --reporter flat --reporter html",
+    "test-e2e:update-reference": "gemini update ./test-e2e-screenshots"
   },
   "main": "index.js",
   "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
