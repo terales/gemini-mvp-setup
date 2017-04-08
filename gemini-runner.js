@@ -5,7 +5,7 @@ selenium.start(runGemini)
 
 function runGemini (err, seleniumInstance) {
   const gemini = new Gemini()
-  const result = gemini.test('./gemini', { reporters: ['flat'] })  
+  const result = gemini.test('./test-e2e-screenshots', { reporters: ['flat'] })  
   result.then(reportGeminiResults.bind(null, seleniumInstance))
   result.catch(logGeminiError)
 }

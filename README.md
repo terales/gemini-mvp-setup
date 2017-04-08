@@ -9,7 +9,10 @@ Right now you need to call `selenium-standalone start` and `gemini test` in diff
 This task is achievable with Gemini's flat reporter, running Gemini with a single command and [running browsers headlessly](https://github.com/vvo/selenium-standalone#running-headlessly).
 
 ### How Gemini fits into current project folder structure?
-You need to change paths in commands (`gemini test ./__DESIRED_PATH_HERE__`) and in config (`screenshotsDir` parameter).
+You need to change paths in several places:
+* in npm scripts: `gemini test ./__DESIRED_PATH_HERE__ --…`,
+* in config's `screenshotsDir` parameter,
+* in `gemini-runner.js` at running tests: `gemini.test('./__DESIRED_PATH_HERE__', { reporters: ['flat'] })`.
 
 - - -
 
