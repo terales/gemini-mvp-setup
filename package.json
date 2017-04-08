@@ -1,12 +1,13 @@
 {
   "name": "test-gemini-setup",
   "version": "0.0.0",
-  "description": "For initial expirience of gemini setup",
+  "description": "For initial experience of gemini setup",
   "scripts": {
-    "postinstall": "selenium-standalone install",
-    "start:selenium": "selenium-standalone start",
-    "test": "gemini test --reporter flat --reporter html",
-    "test:update-reference": "gemini update"
+    "postinstall": "selenium-standalone install",    
+    "test-e2e:ci": "node ./gemini-runner",
+    "test-e2e:start-selenium": "selenium-standalone start",
+    "test-e2e:run-gemini": "gemini test --reporter flat --reporter html",
+    "test-e2e:update-reference": "gemini update"
   },
   "main": "index.js",
   "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
