@@ -17,3 +17,5 @@ You need to change paths in several places:
 - - -
 
 After some tweaking I saw that Gemini is very comprehensive and configurable utility. Going to use in current projects.
+
+Another project to check Gemini in use: https://github.com/mshatikhin/gemini-react-starter
