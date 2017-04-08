@@ -1,0 +1,8 @@
+{
+  "name": "test-gemini-setup",
+  "version": "0.0.0",
+  "description": "For initial expirience of gemini setup",
+  "main": "index.js",
+  "author": "Aleksander Terekhov <terehov.alexander.serg+npm@gmail.com> (https://www.terales.info/)",
+  "license": "MIT"
+}
