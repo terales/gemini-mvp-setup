@@ -1,3 +1,5 @@
+## This is a [research code](https://meiert.com/en/blog/20140716/research-and-production/).
+
 Gemini is looking good for me as a test runner for checking CSS regressions.
 
 I've created minimum setup example to check if it fits into my workflow and to get some taste of using it.
